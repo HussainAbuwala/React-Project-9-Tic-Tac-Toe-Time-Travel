@@ -6,6 +6,10 @@
     font-family: sans-serif;
     margin: 20px;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #30292F;
   }
   
   h1 {
@@ -60,15 +64,15 @@
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 3em;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 100px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 100px;
   }
   
   .board-row:after {
@@ -83,9 +87,43 @@
   .game {
     display: flex;
     flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .game-info {
     margin-left: 20px;
   }
+
+  .time-travel{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 2px 16px;
+    height: 32px;
+    width: 150px;
+    border: none;
+    color: #fff;
+    background-color: #4f545c;
+    margin-top: 5px;
+    transition: background-color .17s ease,color .17s ease;
+
+  }
+
+  .container{
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    max-width: 700px;
+    padding: 30px;
+
+  }
+
+  
   
