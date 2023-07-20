@@ -21,3 +21,4 @@ The Tic Tac Toe Game is a classic and popular two-player board game that challen
 5. webpack
 7. GitHub
 8. netlify
+9. Docker
